@@ -44,6 +44,7 @@ extern crate quickcheck;
 #[cfg(test)]
 extern crate rand;
 
+use std::prelude::v1::*;
 use chrono::{DateTime, TimeZone, Utc};
 pub use num_bigint::{BigInt, BigUint};
 use num_traits::{FromPrimitive, One, ToPrimitive, Zero};
