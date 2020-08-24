@@ -9,9 +9,9 @@ license = "ISC"
 repository = "https://github.com/acw/simple_asn1"
 
 [dependencies]
-chrono     = { git = "https://github.com/mesalock-linux/chrono-sgx" }
-num-bigint = { git = "https://github.com/mesalock-linux/num-bigint-sgx" }
-num-traits = { git = "https://github.com/mesalock-linux/num-traits-sgx" }
+chrono     = { git = "https://github.com/mesalock-linux/chrono-sgx", tag = "sgx_1.1.1" }
+num-bigint = { git = "https://github.com/mesalock-linux/num-bigint-sgx", tag = "sgx_1.1.1" }
+num-traits = { git = "https://github.com/mesalock-linux/num-traits-sgx", tag = "sgx_1.1.1" }
 sgx_tstd = { rev = "v1.1.1", git = "https://github.com/apache/teaclave-sgx-sdk.git", optional = true }
 
 [dev-dependencies]
